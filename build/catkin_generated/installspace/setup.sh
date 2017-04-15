@@ -8,7 +8,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/mudgal/fetch_ws/install}
+: ${_CATKIN_SETUP_DIR:=/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install}
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

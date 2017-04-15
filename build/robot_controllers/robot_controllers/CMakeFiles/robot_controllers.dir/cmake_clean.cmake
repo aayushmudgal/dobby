@@ -10,8 +10,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/robot_controllers.dir/src/pid.cpp.o"
   "CMakeFiles/robot_controllers.dir/src/point_head.cpp.o"
   "CMakeFiles/robot_controllers.dir/src/scaled_mimic.cpp.o"
-  "/home/mudgal/fetch_ws/devel/lib/librobot_controllers.pdb"
-  "/home/mudgal/fetch_ws/devel/lib/librobot_controllers.so"
+  "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/lib/librobot_controllers.pdb"
+  "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/lib/librobot_controllers.so"
 )
 
 # Per-language clean rules from dependency scanning.

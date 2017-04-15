@@ -67,14 +67,14 @@ set(fetch_gazebo_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(fetch_gazebo_SOURCE_PREFIX /home/mudgal/fetch_ws/src/fetch_gazebo/fetch_gazebo)
-  set(fetch_gazebo_DEVEL_PREFIX /home/mudgal/fetch_ws/devel)
+  set(fetch_gazebo_SOURCE_PREFIX /media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_gazebo/fetch_gazebo)
+  set(fetch_gazebo_DEVEL_PREFIX /media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel)
   set(fetch_gazebo_INSTALL_PREFIX "")
   set(fetch_gazebo_PREFIX ${fetch_gazebo_DEVEL_PREFIX})
 else()
   set(fetch_gazebo_SOURCE_PREFIX "")
   set(fetch_gazebo_DEVEL_PREFIX "")
-  set(fetch_gazebo_INSTALL_PREFIX /home/mudgal/fetch_ws/install)
+  set(fetch_gazebo_INSTALL_PREFIX /media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install)
   set(fetch_gazebo_PREFIX ${fetch_gazebo_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(fetch_gazebo_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/mudgal/fetch_ws/src/fetch_gazebo/fetch_gazebo/include " STREQUAL " ")
+if(NOT "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_gazebo/fetch_gazebo/include " STREQUAL " ")
   set(fetch_gazebo_INCLUDE_DIRS "")
-  set(_include_dirs "/home/mudgal/fetch_ws/src/fetch_gazebo/fetch_gazebo/include")
+  set(_include_dirs "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_gazebo/fetch_gazebo/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -103,7 +103,7 @@ if(NOT "/home/mudgal/fetch_ws/src/fetch_gazebo/fetch_gazebo/include " STREQUAL "
         message(FATAL_ERROR "Project 'fetch_gazebo' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'Michael Ferguson <mferguson@fetchrobotics.com>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'fetch_gazebo' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/mudgal/fetch_ws/src/fetch_gazebo/fetch_gazebo/${idir}'.  Ask the maintainer 'Michael Ferguson <mferguson@fetchrobotics.com>' to fix it.")
+      message(FATAL_ERROR "Project 'fetch_gazebo' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_gazebo/fetch_gazebo/${idir}'.  Ask the maintainer 'Michael Ferguson <mferguson@fetchrobotics.com>' to fix it.")
     endif()
     _list_append_unique(fetch_gazebo_INCLUDE_DIRS ${include})
   endforeach()
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/mudgal/fetch_ws/devel/lib;/opt/ros/indigo/lib)
+    foreach(path /media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/lib;/opt/ros/indigo/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

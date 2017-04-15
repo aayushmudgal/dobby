@@ -7,7 +7,7 @@ from sys import path as sys_path
 
 from pkgutil import extend_path
 
-__extended_path = "/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers/src".split(";")
+__extended_path = "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers/src".split(";")
 for p in reversed(__extended_path):
     sys_path.insert(0, p)
     del p

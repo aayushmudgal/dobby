@@ -16,7 +16,7 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/mudgal/fetch_ws/src/fetch_ros/fetch_depth_layer/include"
+  "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_ros/fetch_depth_layer/include"
   "/opt/ros/indigo/include"
   "/usr/include/opencv"
   "/usr/include/eigen3"

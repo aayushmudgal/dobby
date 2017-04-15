@@ -16,10 +16,10 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/mudgal/fetch_ws/src/fetch_gazebo/fetch_gazebo/include"
-  "/home/mudgal/fetch_ws/devel/include"
-  "/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers/include"
-  "/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers_interface/include"
+  "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_gazebo/fetch_gazebo/include"
+  "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/include"
+  "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers/include"
+  "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers_interface/include"
   "/opt/ros/indigo/include"
   "/usr/include/eigen3"
   "/usr/include/gazebo-2.2"

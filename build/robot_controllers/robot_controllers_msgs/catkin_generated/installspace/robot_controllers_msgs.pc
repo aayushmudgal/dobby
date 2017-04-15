@@ -1,8 +1,8 @@
-prefix=/home/mudgal/fetch_ws/install
+prefix=/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install
 
 Name: robot_controllers_msgs
 Description: Description of robot_controllers_msgs
 Version: 0.5.2
-Cflags: -I/home/mudgal/fetch_ws/install/include
-Libs: -L/home/mudgal/fetch_ws/install/lib 
+Cflags: -I/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install/include
+Libs: -L/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install/lib 
 Requires: actionlib_msgs message_runtime std_msgs

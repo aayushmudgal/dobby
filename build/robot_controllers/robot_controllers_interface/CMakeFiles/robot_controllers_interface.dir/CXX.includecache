@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mudgal/fetch_ws/devel/include/robot_controllers_msgs/ControllerState.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/include/robot_controllers_msgs/ControllerState.h
 string
 -
 vector
@@ -22,7 +22,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/mudgal/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesAction.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesAction.h
 string
 -
 vector
@@ -44,7 +44,7 @@ robot_controllers_msgs/QueryControllerStatesActionResult.h
 robot_controllers_msgs/QueryControllerStatesActionFeedback.h
 -
 
-/home/mudgal/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesActionFeedback.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesActionFeedback.h
 string
 -
 vector
@@ -66,7 +66,7 @@ actionlib_msgs/GoalStatus.h
 robot_controllers_msgs/QueryControllerStatesFeedback.h
 -
 
-/home/mudgal/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesActionGoal.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesActionGoal.h
 string
 -
 vector
@@ -88,7 +88,7 @@ actionlib_msgs/GoalID.h
 robot_controllers_msgs/QueryControllerStatesGoal.h
 -
 
-/home/mudgal/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesActionResult.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesActionResult.h
 string
 -
 vector
@@ -110,7 +110,7 @@ actionlib_msgs/GoalStatus.h
 robot_controllers_msgs/QueryControllerStatesResult.h
 -
 
-/home/mudgal/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesFeedback.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesFeedback.h
 string
 -
 vector
@@ -128,7 +128,7 @@ ros/message_operations.h
 robot_controllers_msgs/ControllerState.h
 -
 
-/home/mudgal/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesGoal.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesGoal.h
 string
 -
 vector
@@ -146,7 +146,7 @@ ros/message_operations.h
 robot_controllers_msgs/ControllerState.h
 -
 
-/home/mudgal/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesResult.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/include/robot_controllers_msgs/QueryControllerStatesResult.h
 string
 -
 vector
@@ -164,7 +164,7 @@ ros/message_operations.h
 robot_controllers_msgs/ControllerState.h
 -
 
-/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/controller.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/controller.h
 string
 -
 vector
@@ -176,7 +176,7 @@ ros/ros.h
 robot_controllers_interface/handle.h
 -
 
-/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/controller_loader.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/controller_loader.h
 string
 -
 ros/ros.h
@@ -186,7 +186,7 @@ pluginlib/class_loader.h
 robot_controllers_interface/controller.h
 -
 
-/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/controller_manager.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/controller_manager.h
 string
 -
 ros/ros.h
@@ -202,21 +202,21 @@ robot_controllers_interface/controller.h
 robot_controllers_interface/controller_loader.h
 -
 
-/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/handle.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/handle.h
 string
 -
 boost/shared_ptr.hpp
 -
 
-/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/joint_handle.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers_interface/include/robot_controllers_interface/joint_handle.h
 robot_controllers_interface/handle.h
 -
 
-/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_loader.cpp
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_loader.cpp
 robot_controllers_interface/controller_loader.h
 -
 
-/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_manager.cpp
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers_interface/src/controller_manager.cpp
 sstream
 -
 robot_controllers_interface/controller_manager.h

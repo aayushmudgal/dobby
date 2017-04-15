@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mudgal/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/include/ikfast.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/include/ikfast.h
 vector
 -
 list
@@ -14,7 +14,7 @@ list
 stdexcept
 -
 
-/home/mudgal/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/fetch_arm_ikfast_moveit_plugin.cpp
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/fetch_arm_ikfast_moveit_plugin.cpp
 ros/ros.h
 -
 moveit/kinematics_base/kinematics_base.h
@@ -24,13 +24,13 @@ urdf/model.h
 tf_conversions/tf_kdl.h
 -
 fetch_arm_ikfast_solver.cpp
-/home/mudgal/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/fetch_arm_ikfast_solver.cpp
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/fetch_arm_ikfast_solver.cpp
 pluginlib/class_list_macros.h
 -
 
-/home/mudgal/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/fetch_arm_ikfast_solver.cpp
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/fetch_arm_ikfast_solver.cpp
 ikfast.h
-/home/mudgal/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/ikfast.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_ros/fetch_ikfast_plugin/src/ikfast.h
 cmath
 -
 vector
@@ -1184,5 +1184,9 @@ tinyxml.h
 boost/shared_ptr.hpp
 -
 boost/weak_ptr.hpp
+-
+urdf_model/types.h
+-
+urdf_world/types.h
 -
 

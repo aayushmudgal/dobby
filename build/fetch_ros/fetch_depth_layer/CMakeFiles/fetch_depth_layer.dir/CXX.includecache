@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/mudgal/fetch_ws/src/fetch_ros/fetch_depth_layer/include/fetch_depth_layer/depth_layer.h
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_ros/fetch_depth_layer/include/fetch_depth_layer/depth_layer.h
 boost/thread/mutex.hpp
 -
 boost/shared_ptr.hpp
@@ -28,7 +28,7 @@ opencv2/rgbd.hpp
 opencv2/rgbd/rgbd.hpp
 -
 
-/home/mudgal/fetch_ws/src/fetch_ros/fetch_depth_layer/src/depth_layer.cpp
+/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_ros/fetch_depth_layer/src/depth_layer.cpp
 pluginlib/class_list_macros.h
 -
 fetch_depth_layer/depth_layer.h

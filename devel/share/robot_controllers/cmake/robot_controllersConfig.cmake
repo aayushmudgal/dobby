@@ -67,14 +67,14 @@ set(robot_controllers_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(robot_controllers_SOURCE_PREFIX /home/mudgal/fetch_ws/src/robot_controllers/robot_controllers)
-  set(robot_controllers_DEVEL_PREFIX /home/mudgal/fetch_ws/devel)
+  set(robot_controllers_SOURCE_PREFIX /media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers)
+  set(robot_controllers_DEVEL_PREFIX /media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel)
   set(robot_controllers_INSTALL_PREFIX "")
   set(robot_controllers_PREFIX ${robot_controllers_DEVEL_PREFIX})
 else()
   set(robot_controllers_SOURCE_PREFIX "")
   set(robot_controllers_DEVEL_PREFIX "")
-  set(robot_controllers_INSTALL_PREFIX /home/mudgal/fetch_ws/install)
+  set(robot_controllers_INSTALL_PREFIX /media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install)
   set(robot_controllers_PREFIX ${robot_controllers_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(robot_controllers_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers/include;/usr/include;/usr/include/eigen3;/opt/ros/indigo/include " STREQUAL " ")
+if(NOT "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers/include;/usr/include;/usr/include/eigen3;/opt/ros/indigo/include " STREQUAL " ")
   set(robot_controllers_INCLUDE_DIRS "")
-  set(_include_dirs "/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers/include;/usr/include;/usr/include/eigen3;/opt/ros/indigo/include")
+  set(_include_dirs "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers/include;/usr/include;/usr/include/eigen3;/opt/ros/indigo/include")
   foreach(idir ${_include_dirs})
     if(IS_ABSOLUTE ${idir} AND IS_DIRECTORY ${idir})
       set(include ${idir})
@@ -103,13 +103,13 @@ if(NOT "/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers/include;/u
         message(FATAL_ERROR "Project 'robot_controllers' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  Ask the maintainer 'Michael Ferguson <mferguson@fetchrobotics.com>' to fix it.")
       endif()
     else()
-      message(FATAL_ERROR "Project 'robot_controllers' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/mudgal/fetch_ws/src/robot_controllers/robot_controllers/${idir}'.  Ask the maintainer 'Michael Ferguson <mferguson@fetchrobotics.com>' to fix it.")
+      message(FATAL_ERROR "Project 'robot_controllers' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/robot_controllers/robot_controllers/${idir}'.  Ask the maintainer 'Michael Ferguson <mferguson@fetchrobotics.com>' to fix it.")
     endif()
     _list_append_unique(robot_controllers_INCLUDE_DIRS ${include})
   endforeach()
 endif()
 
-set(libraries "robot_controllers;/usr/lib/x86_64-linux-gnu/libboost_python.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/opt/ros/indigo/lib/liborocos-kdl.so.1.3.0")
+set(libraries "robot_controllers;/usr/lib/i386-linux-gnu/libboost_python.so;/usr/lib/i386-linux-gnu/libboost_system.so;/opt/ros/indigo/lib/liborocos-kdl.so.1.3.0")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -122,7 +122,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/mudgal/fetch_ws/devel/lib;/opt/ros/indigo/lib)
+    foreach(path /media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/lib;/opt/ros/indigo/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

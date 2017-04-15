@@ -14,20 +14,20 @@ fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
 
-echo_and_run cd "/home/mudgal/fetch_ws/src/fetch_ros/fetch_calibration"
+echo_and_run cd "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_ros/fetch_calibration"
 
 # snsure that Python install destination exists
-echo_and_run mkdir -p "$DESTDIR/home/mudgal/fetch_ws/install/lib/python2.7/dist-packages"
+echo_and_run mkdir -p "$DESTDIR/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install/lib/python2.7/dist-packages"
 
 # Note that PYTHONPATH is pulled from the environment to support installing
 # into one location when some dependencies were installed in another
 # location, #123.
 echo_and_run /usr/bin/env \
-    PYTHONPATH="/home/mudgal/fetch_ws/install/lib/python2.7/dist-packages:/home/mudgal/fetch_ws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
-    CATKIN_BINARY_DIR="/home/mudgal/fetch_ws/build" \
+    PYTHONPATH="/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install/lib/python2.7/dist-packages:/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/build/lib/python2.7/dist-packages:$PYTHONPATH" \
+    CATKIN_BINARY_DIR="/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/build" \
     "/usr/bin/python" \
-    "/home/mudgal/fetch_ws/src/fetch_ros/fetch_calibration/setup.py" \
-    build --build-base "/home/mudgal/fetch_ws/build/fetch_ros/fetch_calibration" \
+    "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_ros/fetch_calibration/setup.py" \
+    build --build-base "/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/build/fetch_ros/fetch_calibration" \
     install \
     $DESTDIR_ARG \
-    --install-layout=deb --prefix="/home/mudgal/fetch_ws/install" --install-scripts="/home/mudgal/fetch_ws/install/bin"
+    --install-layout=deb --prefix="/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install" --install-scripts="/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install/bin"
