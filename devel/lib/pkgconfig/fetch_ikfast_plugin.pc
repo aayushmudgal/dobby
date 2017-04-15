@@ -1,0 +1,8 @@
+prefix=/home/mudgal/fetch_ws/devel
+
+Name: fetch_ikfast_plugin
+Description: Description of fetch_ikfast_plugin
+Version: 0.7.10
+Cflags: 
+Libs: -L/home/mudgal/fetch_ws/devel/lib 
+Requires: moveit_core pluginlib roscpp tf_conversions

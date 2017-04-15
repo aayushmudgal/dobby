@@ -1,0 +1,8 @@
+prefix=/home/mudgal/fetch_ws/devel
+
+Name: fetch_depth_layer
+Description: Description of fetch_depth_layer
+Version: 0.7.10
+Cflags: 
+Libs: -L/home/mudgal/fetch_ws/devel/lib 
+Requires: 

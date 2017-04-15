@@ -1,0 +1,8 @@
+prefix=/home/mudgal/fetch_ws/install
+
+Name: robot_controllers_msgs
+Description: Description of robot_controllers_msgs
+Version: 0.5.2
+Cflags: -I/home/mudgal/fetch_ws/install/include
+Libs: -L/home/mudgal/fetch_ws/install/lib 
+Requires: actionlib_msgs message_runtime std_msgs
