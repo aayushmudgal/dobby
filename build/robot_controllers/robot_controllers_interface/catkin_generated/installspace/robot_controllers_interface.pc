@@ -1,8 +1,0 @@
-prefix=/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install
-
-Name: robot_controllers_interface
-Description: Description of robot_controllers_interface
-Version: 0.5.2
-Cflags: -I/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install/include -I/usr/include
-Libs: -L/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install/lib -lrobot_controllers_interface -l:/usr/lib/i386-linux-gnu/libboost_system.so
-Requires: actionlib pluginlib roscpp robot_controllers_msgs

@@ -1,8 +1,0 @@
-prefix=/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel
-
-Name: fetch_gazebo
-Description: Description of fetch_gazebo
-Version: 0.7.1
-Cflags: -I/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/src/fetch_gazebo/fetch_gazebo/include
-Libs: -L/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/devel/lib -lfetch_gazebo_plugin
-Requires: control_toolbox gazebo_ros robot_controllers robot_controllers_interface

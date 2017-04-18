@@ -1,8 +1,0 @@
-prefix=/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install
-
-Name: robot_controllers
-Description: Description of robot_controllers
-Version: 0.5.2
-Cflags: -I/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install/include -I/usr/include -I/usr/include/eigen3 -I/opt/ros/indigo/include
-Libs: -L/media/kruppe/1e0a5b1d-281d-40a6-8ca8-095201d10cc2/Work/columbia/HumanoidRobots/fetch_ws/install/lib -lrobot_controllers -l:/usr/lib/i386-linux-gnu/libboost_python.so -l:/usr/lib/i386-linux-gnu/libboost_system.so -l:/opt/ros/indigo/lib/liborocos-kdl.so.1.3.0
-Requires: actionlib actionlib_msgs control_msgs geometry_msgs kdl_parser nav_msgs pluginlib robot_controllers_interface roscpp sensor_msgs tf tf_conversions trajectory_msgs urdf

@@ -1,6 +1,0 @@
-set(robot_controllers_SETUP_PY_VERSION "0.5.2")
-set(robot_controllers_SETUP_PY_SCRIPTS "")
-set(robot_controllers_SETUP_PY_PACKAGES "robot_controllers")
-set(robot_controllers_SETUP_PY_PACKAGE_DIRS "src/robot_controllers")
-set(robot_controllers_SETUP_PY_MODULES "")
-set(robot_controllers_SETUP_PY_MODULE_DIRS "")
