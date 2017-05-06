@@ -4,6 +4,7 @@
 We adapted a portion of the [fetch documentation](http://docs.fetchrobotics.com/gazebo.html)  and [hw1](https://github.com/HumanoidRobotics/HW1/blob/master/part1.md) to start with. 
 
 Pictures Folder: Holds some intermediate Pictures
+Stacking_video: Video of DOBBY in Action
 
 Installation Instructions:
 
@@ -58,3 +59,5 @@ This starts the robot for the first time, initialized all the components that ar
 ## References
 - http://docs.fetchrobotics.com/gazebo.html
 - http://wiki.ros.org/agile_grasp
+##
+Maintainer: Aayush Mudgal 
