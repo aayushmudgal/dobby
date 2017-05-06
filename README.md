@@ -22,7 +22,7 @@ git clone https://github.com/fetchrobotics/fetch_ros.git
 
 git clone https://github.com/fetchrobotics/robot_controllers.git
 
-git clone https://github.com/modernAlcibiades/DoB.git
+git clone https://github.com/aayushmudgal/dobby.git
 
 ```
 
