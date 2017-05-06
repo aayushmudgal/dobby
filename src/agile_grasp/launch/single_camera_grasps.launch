@@ -1,0 +1,34 @@
+<launch>
+	<node name="find_grasps" pkg="agile_grasp" type="find_grasps" output="screen">
+  	<param name="cloud_topic" value="/head_camera/depth_registered/points" />
+    <param name="cloud_frame" value="/head_camera_rgb_optical_frame" />
+    <param name="cloud_type" value="0" />
+    <param name="svm_file_name" value="$(find agile_grasp)/svm_032015_20_20_same" />
+    <param name="num_samples" value="4000" />
+    <param name="num_threads" value="4" />
+    <param name="num_clouds" value="1" />
+		<rosparam param="workspace"> [-10, 10, -10, 10, -10, 10] </rosparam>
+    <!-- <rosparam param="camera_pose"> [0, 0.445417, 0.895323, 0.215, 
+              1, 0, 0, -0.015, 
+              0, 0.895323, -0.445417, 0.23, 
+              0, 0, 0, 1] </rosparam> -->
+    <param name="min_inliers" value="10" />
+    <param name="plotting" value="3" /> <!-- 0: none, 1: PCL, 2: PCL with fingers, 3: rviz -->
+    <param name="marker_lifetime" value="30" />
+	</node>
+</launch>
+
+<!--     loud_topic: the topic where the input point cloud is published
+    cloud_frame: the frame associated with the input point cloud
+
+    cloud_type: the cloud type (0: sensor_msgs/PointCloud2, 1: agile_grasp/CloudSized)
+    svm_file_name: the location of the file containing the SVM classifier
+    num_samples: the number of samples used to localize grasps
+    num_threads: the number of CPU threads used
+    num_clouds: the number of input point clouds
+    workspace: the workspace limits (a box with the center at the origin; [minX, maxX, minY, maxY, minZ, maxZ])
+    camera_pose: the pose of the camera that produces the input point cloud (not required)
+    min_inliers: the minimum number of grasps required to form a cluster
+    plotting: what kind of visualization is used (0: none, 1: PCL, 2: Rviz)
+    marker_lifetime: the lifetime of visual markers in Rviz  -->
+

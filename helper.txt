@@ -1,0 +1,25 @@
+while not rospy.is_shutdown():
+        rospy.loginfo("Picking object...")
+        
+        cube_grasps = grasping_client.getGraspableCube()
+        if cube_grasps[0][0] == None:
+            rospy.logwarn("Perception failed.")
+            continue
+        # Pick the block
+        if grasping_client.pick(cube_grasps[0][0],cube_grasps[0][1]):
+            break
+        rospy.logwarn("Grasping failed.")
+
+
+out = grasping_client.get()
+no=0
+grasping_client.pick(out[no][0],out[no][1])  
+
+# if (grasping_client.table_coords['A'].x = 
+# write code to decide which place to keep
+grasping_client.put(cube_grasps[0][0], 0.011,0.011, 0.05)
+
+grasping_client.put_valid(cube, grasping_client.table_valid.x+0.001, grasping_client.table_valid.y+0.001,0.05)
+
+
+move_base.goto(0.935,0.1,0)
