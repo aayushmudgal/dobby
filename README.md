@@ -5,7 +5,7 @@ We adapted a portion of the [fetch documentation](http://docs.fetchrobotics.com/
 
 Pictures Folder: Holds some intermediate Pictures
 Stacking_video: Video of DOBBY in Action
-
+partial_arrangement: Video of partial successful arrangement
 Installation Instructions:
 
 - Create a ROS workspace
